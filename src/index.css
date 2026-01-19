@@ -1,59 +1,30 @@
-:root {
-  --bg: #282c34;
-  --header: #fff;
-  --link: #61dafb;
-  --text: hsla(0, 0%, 100%, 0.88);
-}
-
 body {
   margin: 0;
-  font-family: "Merriweather", "Georgia", serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: var(--bg);
-  color: var(--text);
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
 }
 
-h1,
-h3 {
-  font-size: 2em;
-  font-family: Montserrat, sans-serif;
-  font-weight: 900;
-}
-
-.App {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 2.5rem 1rem;
-  max-width: 700px;
-}
-
-header h1 {
-  font-size: 3em;
-}
-
-aside {
+.app {
   display: flex;
-  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-aside img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 1rem;
-  background-color: black;
+.clock {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  text-align: center;
 }
 
-article {
-  margin-bottom: 3rem;
+.clock h1 {
+  font-size: 3rem;
+  margin: 0;
 }
 
-article p {
-  margin-top: 0.25rem;
-}
-
-article h3 {
-  color: var(--link);
-  margin-bottom: 0rem;
+.clock p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
 }
